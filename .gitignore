@@ -3,4 +3,4 @@ node_modules
 coverage
 /src/fixtures/.coveralls.json
 /src/fixtures/.travis.json
-dist
+

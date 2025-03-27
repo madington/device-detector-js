@@ -49,8 +49,7 @@
     "test:watch": "jest src --coverage --verbose --watch",
     "coverage": "coveralls < ./coverage/lcov.info",
     "prebuild": "rm -rf dist/ && yarn lint",
-    "build": "tsc --pretty",
-    "postinstall": "tsc --pretty"
+    "build": "tsc --pretty"
   },
   "napa": {
     "device-detector": "https://github.com/matomo-org/device-detector#6.4.1"
