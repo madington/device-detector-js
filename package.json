@@ -50,7 +50,7 @@
     "coverage": "coveralls < ./coverage/lcov.info",
     "prebuild": "rm -rf dist/ && yarn lint",
     "build": "tsc --pretty",
-    "postinstall": "yarn build"
+    "postinstall": "tsc --pretty"
   },
   "napa": {
     "device-detector": "https://github.com/matomo-org/device-detector#6.4.1"
